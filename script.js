@@ -46,7 +46,7 @@ var tl = gsap.timeline({
     start: "0% 90%",
     end: "0% 20%",
     // markers: true,
-    scrub: true,
+    scrub: 2,
   },
 });
 
@@ -66,7 +66,7 @@ tl.to("#orange1",{
     width:"15%",
     top: "167%",
     left:"75%",
-    zIndex:"99"
+    zIndex:"99999"
 },'orange')
 
 tl.to("#leaf4",{
@@ -85,7 +85,7 @@ var tl2 = gsap.timeline({
       start: "0% 78%",
       end: "0% 20%",
     //   markers: true,
-      scrub: true,
+      scrub: 2,
     },
   });
 
